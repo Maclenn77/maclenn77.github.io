@@ -1,7 +1,7 @@
 /* Portfolio About Contact */
 body {
   font-family: Poppins;
-  background: #E5E5E5;
+  background: #F2F2F2;
   color: #000;
 }
 
@@ -39,6 +39,13 @@ h2 {
 h4 {
   font-style: normal;
   font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   color: #525252;
@@ -52,4 +59,59 @@ p {
   font-size: 16px;
   line-height: 30px;
   color: #727274;
+}
+
+span {
+  font-size: 16px;
+  line-height: 212.5%;
+  color: #727274
+}
+
+.btn {
+  padding: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 105.3%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #F9855B;
+}
+
+.contact {
+  margin: 0;
+  text-align: center;
+  background: #F9855B;
+  color: #FFF;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFF;
+}
+
+.contact button {
+  background: #000000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #F9855B;
+  color: #FFF;
+}
+
+footer span {
+  background: #F9855B;
+  color: #FFF;
+}
+
+.fab {
+  font-size: 24px;
+  color: #F9855B;
+}
+
+.card-img-top {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
 }
