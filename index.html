@@ -10,60 +10,84 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Juan Paulo</a>
-      <a href="#Portfolio">Portfolio</a>
-      <a href="#About">About</a>
-      <a href="#Contact">Contact</a>
+    <nav class="navbar navbar-light sticky-top">
+      <a class="navbar-brand" style="color:white; font-weight:bold" href="index.html">Juan Paulo</a>
+      <div class="d-flex">
+        <a class="mx-2" href="#Portfolio">Portfolio</a>
+        <a class="mx-2" href="#About">About</a>
+        <a class="mx-2" href="#Contact">Contact</a>
+      </div>
     </nav>
     <main>
-      <h1>Lorem Ipsum</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1>Do you need somebody to code?</h1>
+      <p>Hi! I'm a <b>Full-Stack Web Developer</b>. Yes, I enjoy the front-end as much as the back-end. And I'm pretty sure that I will enjoy building your product, feature, or website. Check my work and experience, and contact me if I'm the man that you need for your project.</p>
       <section>
-      <h6>My Social Networks</h6>
-      <div class="d-flex justify-content-around">
-        <i class='fab fa-github'></i>
-        <i class='fab fa-twitter'></i>
-        <i class='fab fa-linkedin'></i>
-        <i class='fab fa-wordpress'></i>
-        <i class='fab fa-angellist'></i>
+      <h6>My work in Social Networks</h6>
+      <div class="d-flex justify-content-between">
+        <a href="https://github.com/Maclenn77" class='fab fa-github'></a>
+        <a href="https:/twitter.com/srjuanpapas" class='fab fa-twitter'></a>
+        <a href="http://linkedin.com/juanpaulopereztejada" class='fab fa-linkedin'></a>
+        <a href="http://developerz.software" class='fab fa-wordpress'></a>
+        <a href="https://angel.co/u/juan-paulo-perez-tejada-ladron-de-guevara" class='fab fa-angellist'></a>
       </div>
       </section>
-      <section class="best-works">
-      <h2>My best works</h2>
-      <div class="card" style="width: 100%;">
+    </main>
+    <section id="Portfolio">
+    <h2>Showcase</h2>
+    <div class="best-works justify-content-between">
+      <div class="card">
         <img class="card-img-top" src="assets/SFCapstone.png" alt="SF Summit">
         <div class="card-body">
           <h5 class="card-title">Sci-Fi Summit</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn">Go somewhere</a>
+          <div class="d-flex my-3">
+            <span class="card-text">HTML/CSS</span>
+          </div>
+          <a href="#" class="btn">See the project</a>
         </div>
       </div>
-      </section>
-      <section>
+      <div class="card">
+        <img class="card-img-top" src="assets/RoRCapstone.png" alt="Book Opinions">
+        <div class="card-body">
+          <h5 class="card-title">Daiuk: Book Opinions</h5>
+          <div class="d-flex my-3">
+            <span class="card-text">HTML/CSS</span>
+            <span class="card-text">Ruby on Rails</span>
+          </div>
+          <a href="#" class="btn">See the project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/teatro.png" alt="Book Opinions">
+        <div class="card-body">
+          <h5 class="card-title">Teatro desde la nada</h5>
+          <div class="d-flex my-3">
+            <span class="card-text">HTML/CSS</span>
+          </div>
+          <a href="#" class="btn">See the project</a>
+        </div>
+    </div>
+    </section>
+    <div class="info" id="About">
+      <section class="about">
         <h2>About me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>I studied Linguistics. My love for languages and syntax took me to code. Check my work and experience. If you have a project to develope, contact me!</p>
         <a href="#" class="btn">Get my resume</a>
       </section>
-      <section>
+      <section class="skills">
         <h4>Languages</h4>
         <span>Ruby</span>
         <span>Python</span>
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript(ES5/ES6)</span>
-      </section>
       <hr>
-      <section>
         <h4>Frameworks</h4>
         <span>Bootstrap</span>
         <span>Ruby On Rails</span>
         <span>RSpec</span>
         <span>Capybara</span>
         <span>Selenium</span>
-      </section>
       <hr>
-      <section>
         <h4>Skills</h4>
         <span>Bootstrap</span>
         <span>Bulma</span>
@@ -73,29 +97,32 @@
         <span>Gitlab</span>
         <span>Terminal</span>
       </section>
+    </div>
+    <footer id="Contact">
       <section class="contact">
-        <h2>Lorem ipsum</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h2>Let's code together!</h2>
+        <p>Will you renovate the design of your website? Will you add a new feature? Do you need a MVP? <br>I'd love to help you with it!</p>
         <form class="contact" action="index.html" method="post">
-          <fieldset>
-            <input type="text" name="" value="">
+          <div class="form-group">
+            <input type="text" class="form-control my-2" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter name">
+            <input type="email" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <fieldset class="form-group">
+             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message"></textarea>
           </fieldset>
-          <fieldset>
-            <input type="text" name="" value="">
-          </fieldset>
-          <fieldset>
-            <input type="text" name="" value="">
-          </fieldset>
-          <button type="button" name="button"> Submit</button>
+          <button type="button" name="button">Get in touch</button>
         </form>
+        <p>maclenn77@gmail.com <a href="https://github.com/Maclenn77" class='fab fa-github'></a>
+        <a href="https:/twitter.com/srjuanpapas" class='fab fa-twitter'></a>
+        <a href="http://linkedin.com/juanpaulopereztejada" class='fab fa-linkedin'></a>
+        <a href="http://developerz.software" class='fab fa-wordpress'></a>
+        <a href="https://angel.co/u/juan-paulo-perez-tejada-ladron-de-guevara" class='fab fa-angellist'></a></p>
       </section>
-    </main>
-    <footer>
-      <span>maclenn77@gmail.com</span>
       <div class="sn">
 
       </div>
       <hr>
+      <p class="text-center">© 2020 Microverse</p>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

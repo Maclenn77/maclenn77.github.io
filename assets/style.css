@@ -1,12 +1,29 @@
 /* Portfolio About Contact */
 body {
   font-family: Poppins;
-  background: #F2F2F2;
+  background-image: url("/assets/bg.png");
+  background: #F2F2F2, url("/assets/bg.png");
   color: #000;
 }
 
+nav {
+  background-color: #3700b3;
+  color: #FFF;
+}
+
+nav a {
+  color: #FFF;
+}
 main {
-  margin: 10%;
+  margin: 2% 10%;
+}
+
+section {
+  margin: 2% 10%;
+}
+
+main section {
+  margin: 0;
 }
 
 
@@ -18,8 +35,12 @@ nav a {
   text-align: right;
 }
 
+nav a:hover {
+  color: #FFF;
+}
+
 a.navbar-brand {
-  color: #F9855B;
+  color: #FFF;
 }
 
 h1 {
@@ -74,13 +95,14 @@ span {
   line-height: 105.3%;
   text-align: center;
   color: #FFFFFF;
-  background: #F9855B;
+  background: #6200EE;
+  width: 100%;
 }
 
 .contact {
   margin: 0;
   text-align: center;
-  background: #F9855B;
+  background: #6200EE;
   color: #FFF;
 }
 
@@ -93,25 +115,106 @@ span {
 
 .contact button {
   background: #000000;
+  font-weight: bold;
+  color: #fff;
   border: 1px solid #000000;
   box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 0;
 }
 
 footer {
-  background: #F9855B;
+  background: #6200EE;
+  color: #FFF;
+  padding: 2% 5% 2% 5%;
+  margin: auto;
+}
+
+.contact a {
   color: #FFF;
 }
 
-footer span {
-  background: #F9855B;
+.contact a:hover {
   color: #FFF;
 }
 
-.fab {
+footer hr {
+  border: 1px solid #fff;
+}
+
+
+section a {
   font-size: 24px;
-  color: #F9855B;
+  color: #6200EE;
+}
+
+section a:hover {
+  font-size: 24px;
+  color: #3700b3;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  color: #fff;
+  background: #3700b3;
 }
 
 .card-img-top {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+}
+
+.card-text {
+  color: #000;
+  padding: 2px 7px;
+  margin: auto;
+  background: #BB86FC;
+}
+
+b {
+  color: #6200EE;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 30%;
+  }
+
+  .best-works {
+    display: flex;
+    margin: 0;
+  }
+
+  main {
+    width: 40%;
+  }
+
+  .info {
+    display: flex;
+    margin: 2% 10%;
+    justify-content: space-around;
+  }
+
+  .about {
+    width: 40%;
+    margin: 0 2% 0 0;
+  }
+
+  .skills {
+    margin: 0 0 2% 0;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-group input {
+    width: 48%;
+  }
+
+  footer {
+    padding: 2% 20% 2% 20%;
+    margin: auto;
+  }
 }
