@@ -101,19 +101,19 @@
         <span>Terminal</span>
       </section>
     </div>
-    <footer id="Contact" class="sticky-bottom">
+    <footer class="sticky-bottom">
       <section class="contact">
         <h2>Let's code together!</h2>
         <p>Will you renovate the design of your website? Will you add a new feature? Do you need a MVP? <br>I'd love to help you with it!</p>
-        <form class="contact" action="index.html" method="post">
+        <form class="contact" action="contact-form-handler.php" method="POST">
           <div class="form-group">
-            <input type="text" class="form-control my-2" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter name">
-            <input type="email" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="text" name="name" class="form-control my-1" aria-describedby="emailHelp" placeholder="Enter name" required>
+            <input type="email" name="email" class="form-control my-1" aria-describedby="emailHelp" placeholder="Enter email" required>
           </div>
-          <fieldset class="form-group">
-             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message"></textarea>
-          </fieldset>
-          <button type="button" name="button">Get in touch</button>
+          <div class="form-group">
+             <textarea class="form-control" name="message" rows="3" placeholder="Write a message" required></textarea>
+          </div>
+          <input type="submit" name="button" class="form-control submit" value="Get in touch">
         </form>
         <p>maclenn77@gmail.com <a href="https://github.com/Maclenn77" class='fab fa-github'></a>
         <a href="https:/twitter.com/srjuanpapas" class='fab fa-twitter'></a>
@@ -121,9 +121,6 @@
         <a href="http://developerz.software" class='fab fa-wordpress'></a>
         <a href="https://angel.co/u/juan-paulo-perez-tejada-ladron-de-guevara" class='fab fa-angellist'></a></p>
       </section>
-      <div class="sn">
-
-      </div>
       <hr>
       <p class="text-center">© 2020 Microverse</p>
     </footer>
