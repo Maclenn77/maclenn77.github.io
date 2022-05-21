@@ -1,11 +1,11 @@
 /* Portfolio About Contact */
-body {
+/* body {
   font-family: Poppins;
   background-image: url("/assets/bg.png");
   background-size: cover;
   color: #000;
   margin: 0;
-}
+} */
 
 nav {
   background-color: #3700b3;
@@ -162,7 +162,7 @@ a.btn:hover {
 }
 
 .card-img-top {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%);
 }
 
 .card-text {
