@@ -1,6 +1,6 @@
 const Lead = () => {
     return(
-    <main>
+    <div>
       <h1>Do you need somebody to code?</h1>
       <p>Hi! I'm a <b>Full-Stack Web Developer</b>. Yes, I enjoy the front-end as much as the back-end. And I'm pretty sure that I will enjoy building your product, feature, or website. Check my work and experience, and contact me if I'm the man that you need for your project.</p>
       <section>
@@ -13,7 +13,7 @@ const Lead = () => {
         <a href="https://angel.co/u/juan-paulo-perez-tejada-ladron-de-guevara" class='fab fa-angellist'></a>
       </div>
       </section>
-    </main>
+    </div>
     )
 }
 

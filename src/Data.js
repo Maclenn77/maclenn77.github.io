@@ -2,17 +2,20 @@ export const projects = [{
     name:'',
     tech: [],
     live: '',
-    code: ''
+    code: '',
+    img: ''
 }, {
     name:'',
     tech: [],
     live: '',
-    code: ''
+    code: '',
+    img: ''
 }, {
     name:'',
     tech: [],
     live: '',
-    code: '' 
+    code: '',
+    img: '' 
 }]
 
 export const techStack = [{
