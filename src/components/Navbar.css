@@ -1,24 +1,24 @@
 nav {
-    background-color: #3700b3;
-    color: #FFF;
-  }
+  background-color: #3700b3;
+  color: #FFF; 
+}
   
-  nav a {
-    color: #FFF;
-  }
+nav a {
+  color: #FFF;
+}
 
-  nav a {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: right;
-  }
+nav a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+}
   
-  nav a:hover {
-    color: #FFF;
-  }
+nav a:hover {
+  color: #FFF;
+}
   
-  a.navbar-brand {
+a.navbar-brand {
     color: #FFF;
-  }
+}

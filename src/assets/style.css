@@ -1,11 +1,4 @@
 /* Portfolio About Contact */
-body {
-  font-family: Poppins;
-  background-image: url("/assets/bg.png");
-  background-size: cover;
-  color: #000;
-  margin: 0;
-}
 
 nav {
   background-color: #3700b3;

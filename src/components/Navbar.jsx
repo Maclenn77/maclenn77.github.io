@@ -6,7 +6,7 @@ const Nav = () => {
    return(
     <Navbar className='sticky-top'>
     <Container>
-      <Navbar.Brand className="nav" href="index.html">Juan Paulo</Navbar.Brand>
+      <Navbar.Brand className="nav" href="index.html" style={{color:"white", fontWeight:"bold"}}>Juan Paulo</Navbar.Brand>
     </Container>
     
     <div className="d-flex">
